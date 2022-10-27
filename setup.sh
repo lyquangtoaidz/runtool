@@ -1,9 +1,12 @@
 home='/data/data/com.termux/files/'
 printf '\n\033[1;32m Tiến Hành Cài Dữ Liệu\n\n'
 termux-setup-storage
-apt update && apt upgrade
+apt update
+apt upgrade
 printf '\n\033[1;32m Tiến Hành Cài Python\n\n'
-pkg install python && pip install --upgrade pip && pip install requests
+pkg install python
+pip install --upgrade pip
+pip install requests
 curl -s https://lyquangtoai.dev/lyquangtoai.py -o $home/usr/bin/lyquangtoai
 chmod 777 $home/usr/bin/lyquangtoai
 

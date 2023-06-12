@@ -7,7 +7,7 @@ printf '\n\033[1;32m Tiến Hành Cài Python\n\n'
 pkg install python
 pip install --upgrade pip
 pip install requests
-curl -s https://raw.githubusercontent.com/lyquangtoaidz/runtool/main/main -o $home/usr/bin/toaidz
-chmod 777 $home/usr/bin/toaidz
+curl -s https://raw.githubusercontent.com/lyquangtoaidz/runtool/main/main -o $home/usr/bin/lqtoai
+chmod 777 $home/usr/bin/lqtoai
 
-printf '\n\033[1;32m Gõ \033[1;33mtoaidz \033[1;32mĐể Vào Tool <3\n\n'
+printf '\n\033[1;32m Gõ \033[1;33mlqtoai \033[1;32mĐể Vào Tool <3\n\n'
